@@ -11,6 +11,8 @@ import MapCard from './components/cards/MapCard';
 import StatCard from './components/cards/StatCard';
 import NewsCard from './components/cards/NewsCard';
 import ForumCard from './components/cards/ForumCard';
+import WeatherCard from './components/cards/WeatherCard';
+import WholeProCard from './components/cards/WholeProCard';
 
 
 
@@ -65,10 +67,15 @@ class App extends React.Component {
               >
               <Col span={16} >
                 <Row >
-                  <Col span={6}><FrontCard /></Col>
-                  <Col span={6} offset={6}>
+                  <Col span={12}>
+                    <Row type="flex" justify="center" align="top"><FrontCard /></Row>
+                    <Row type="flex" justify="center" align="top"><WholeProCard /></Row>
+                  </Col>
+                  <Col span={12} >
                     <Row >
                       <Card1 />
+                    </Row>
+                    <Row >
                       <Card2 />
                     </Row>
                   </Col>
@@ -80,23 +87,17 @@ class App extends React.Component {
                   <StatCard />
                 </Row>
               </Col>  
-              <Col span={8}>
-                <Row>
-                  <Card1 />
+              <Col span={8} >
+                <Row type="flex" justify="center" align="middle">
+                  <WeatherCard />
                 </Row>
-                <Row>
+                <Row type="flex" justify="center" align="middle">
                   <NewsCard />
                 </Row>
-                <Row>
+                <Row type="flex" justify="center" align="middle">
                   <ForumCard />
-                </Row>
-                
-                
+                </Row>               
               </Col>
-                
-
-                 
-                
               </Content>
             </Layout>
           </Layout>

@@ -12,7 +12,7 @@ class Card2 extends React.Component {
 
         return (
             <div>
-                <Card size="small" style={{ width: 250 }}>
+                <Card size="small" style={{ width: 335 }}>
                     <p style={styleObject} >Harvest Progress</p>
                     <Progresses />
                 </Card>

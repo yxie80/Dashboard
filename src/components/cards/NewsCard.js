@@ -9,7 +9,7 @@ class NewsCard extends React.Component {
 
         return (
             <div>
-                <Card title="News Card" size="small" style={{ width: 250 }}>
+                <Card title="News Card" size="small" style={{ width: 300 }}>
                     <NewsFeed />
                 </Card>
             </div>

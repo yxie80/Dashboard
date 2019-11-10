@@ -1,12 +1,17 @@
 import React from 'react';
 import { Tooltip, Progress } from 'antd';
+import watermark from '../data.json';
+
+const data = watermark;
+
 
 class WaterMark extends React.Component {
     render() {
         return (
             <div>
-                <Tooltip title="3 done / 3 in progress / 4 to do">
-                <Progress percent={60} successPercent={30} type="circle" />
+                <p>Water Mark</p>
+                <Tooltip title="Water Level ( Currrent / Required )">
+                <Progress percent={data.watermark.req} successPercent={data.watermark.current} type="circle" />
                 </Tooltip>
             </div>
         );

@@ -14,48 +14,12 @@ import {
  Facet,
  Util
 } from "bizcharts";
+import rawData from '../data.json';
 
+const data = rawData.revenueData;
 
 class Revenue extends React.Component {
  render() {
-   const data = [
-     {
-       year: "1991",
-       value: 3
-     },
-     {
-       year: "1992",
-       value: 4
-     },
-     {
-       year: "1993",
-       value: 3.5
-     },
-     {
-       year: "1994",
-       value: 5
-     },
-     {
-       year: "1995",
-       value: 4.9
-     },
-     {
-       year: "1996",
-       value: 6
-     },
-     {
-       year: "1997",
-       value: 7
-     },
-     {
-       year: "1998",
-       value: 9
-     },
-     {
-       year: "1999",
-       value: 13
-     }
-   ];
    const cols = {
      value: {
        min: 0
@@ -66,7 +30,7 @@ class Revenue extends React.Component {
    };
    return (
      <div>
-       <Chart height={150} data={data} scale={cols} forceFit>
+       <Chart height={150} data={data} scale={cols} forceFit padding="auto">
          <Axis name="year" />
          <Axis name="value" />
          <Tooltip

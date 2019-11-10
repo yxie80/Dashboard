@@ -1,15 +1,13 @@
 import React from 'react';
 import { Progress } from 'antd';
-
-const percent = {
-    "percentage": 30,
-}
+import harvestPro from '../data.json';
+const percent = harvestPro;
 
 class Progresses extends React.Component {
     render() {
         return (
             <div style={{ width: 170 }}>
-                <Progress percent={percent.percentage} size="small" />
+                <Progress percent={percent.harvestPro.percentage} size="small" />
             </div>
         );
     }

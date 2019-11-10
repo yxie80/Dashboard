@@ -1,22 +1,10 @@
 import React from 'react';
 import {List} from 'antd';
+import data1 from '../../data.json';
 
 class NewsFeed extends React.Component {
     render() {
-        const data = [
-            {
-                title: 'Title1',
-                description: 'test news',
-            },
-            {
-                title: 'Title2',
-                description: 'test news',
-            },
-            {
-                title: 'Title3',
-                description: 'test news',
-            },
-        ]
+        const data = data1.newsData;
         
         return (
             <div>

@@ -9,7 +9,7 @@ class ForumCard extends React.Component {
 
         return (
             <div>
-                <Card title="News Card" size="small" style={{ width: 250 }}>
+                <Card title="Forum Card" size="small" style={{ width: 300 }}>
                     <ForumFeed />
                 </Card>
             </div>

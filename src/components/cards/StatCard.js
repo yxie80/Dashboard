@@ -1,11 +1,9 @@
 import React from 'react';
 import {Card, Col, Button, Row} from 'antd';
-import 'antd/dist/antd.css';
-//import Histories from '../Lists/Histories';
 import DateRange from '../DatePicker/DatePicker';
-import Stackedcolumn from '../Histgram';
 import WaterMark from '../WaterMark';
 import SoilElements from '../SoilElements';
+import WaterStats from '../WaterStats';
 
 
 
@@ -30,7 +28,10 @@ const contentListNoTitle = {
     Water:
     <div>
         <Col span={20} >
-          <Stackedcolumn />
+          <Row type="flex" justify="start" align="middle">
+            <WaterStats />
+          </Row>  
+
         </Col>
         <Col span={4} >
           <WaterMark />

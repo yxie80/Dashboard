@@ -6,16 +6,16 @@
     },
     "forumData": [
         {
-            "title": "User1",
-            "description": "test news"
+            "title": "Michael",
+            "description": "Hey guys, I found locust in my field yesterday."
         },
         {
-            "title": "User2",
-            "description": "test news"
+            "title": "Tom",
+            "description": "Help! Anyone help me clear weed"
         },
         {
-            "title": "User3",
-            "description": "test news"
+            "title": "James",
+            "description": "Damn! locust sucks. I find them too."
         }
     ],
     "harvestPro": {
@@ -27,16 +27,16 @@
     },
     "newsData": [
         {
-            "title": "Title1",
-            "description": "test news"
+            "title": "Pest Alert",
+            "description": "The locust has arrive north land. please notice"
         },
         {
-            "title": "Title2",
-            "description": "test news"
+            "title": "Storm Alert",
+            "description": "Due to storm approaching, There would be raining in furture three days."
         },
         {
-            "title": "Title3",
-            "description": "test news"
+            "title": "Fire Alert",
+            "description": "There would be no fire alarm in the following week."
         }
     ],
     "preData": [
@@ -62,7 +62,7 @@
             "title": "Type4",
             "type": "new4",
             "date": "11/11/2019",
-            "revenue": 13000000
+            "revenue": 12700000
         }
     ],
     "landData": {
@@ -161,210 +161,218 @@
     "waterStats": [
         {
             "title": "Requirement",
-            "Jan.": 18.9,
-            "Feb.": 28.8,
-            "Mar.": 39.3,
-            "Apr.": 81.4,
-            "May": 47,
-            "Jun.": 20.3,
-            "Jul.": 24,
-            "Aug.": 35.6
+            "0-30": 18.9,
+            "30-60": 28.8,
+            "60-90": 39.3,
+            "90-120": 81.4,
+            "120-150": 47,
+            "150-180": 20.3,
+            "180-210": 24,
+            "210-240": 35.6,
+            "240-270": 35.6,
+            "270-300": 70,
+            "300-330": 75,
+            "330-360": 80
           },
           {
             "title": "Current",
-            "Jan.": 12.4,
-            "Feb.": 23.2,
-            "Mar.": 34.5,
-            "Apr.": 99.7,
-            "May": 52.6,
-            "Jun.": 35.5,
-            "Jul.": 37.4,
-            "Aug.": 42.4
+            "0-30": 16,
+            "30-60": 25,
+            "60-90": 37,
+            "90-120": 70,
+            "120-150": 40,
+            "150-180": 12,
+            "180-210": 20,
+            "210-240": 30,
+            "240-270": 34,
+            "270-300": 50,
+            "300-330": 65,
+            "330-360": 60
           }
     ],
     "soilStats": [
         {
-            "month": "Jan",
-            "city": "Tokyo",
+            "month": "0",
+            "city": "nitrogen",
             "temperature": 7
         },
         {
-            "month": "Jan",
-            "city": "London",
+            "month": "0",
+            "city": "phosphor",
             "temperature": 3.9
         },
         {
-            "month": "Jan",
-            "city": "Paris",
+            "month": "0",
+            "city": "Potassium",
             "temperature": 5
         },  
         {
-            "month": "Feb",
-            "city": "Tokyo",
+            "month": "30",
+            "city": "nitrogen",
             "temperature": 6.9
         },
         {
-            "month": "Feb",
-            "city": "London",
+            "month": "30",
+            "city": "phosphor",
             "temperature": 4.2
         },
         {
-             "month": "Feb",
-             "city": "Paris",
+             "month": "30",
+             "city": "Potassium",
              "temperature": 4.5
         },
         {
-            "month": "Mar",
-            "city": "Tokyo",
+            "month": "60",
+            "city": "nitrogen",
             "temperature": 9.5
         },
         {
-            "month": "Mar",
-            "city": "London",
+            "month": "60",
+            "city": "phosphor",
             "temperature": 5.7
         },
         {
-         "month": "Mar",
-         "city": "Paris",
+         "month": "60",
+         "city": "Potassium",
          "temperature": 6.6
         },
         {
-            "month": "Apr",
-            "city": "Tokyo",
+            "month": "90",
+            "city": "nitrogen",
             "temperature": 14.5
         },
         {
-            "month": "Apr",
-            "city": "London",
+            "month": "90",
+            "city": "phosphor",
             "temperature": 8.5
         },
         {
-         "month": "Apr",
-         "city": "Paris",
+         "month": "90",
+         "city": "Potassium",
          "temperature": 12
         },
         {
-            "month": "May",
-            "city": "Tokyo",
+            "month": "120",
+            "city": "nitrogen",
             "temperature": 18.4
         },
         {
-            "month": "May",
-            "city": "London",
+            "month": "120",
+            "city": "phosphor",
             "temperature": 11.9
         },
         {
-         "month": "May",
-         "city": "Paris",
+         "month": "120",
+         "city": "Potassium",
          "temperature": 14
         },
         {
-            "month": "Jun",
-            "city": "Tokyo",
+            "month": "150",
+            "city": "nitrogen",
             "temperature": 21.5
         },
         {
-            "month": "Jun",
-            "city": "London",
+            "month": "150",
+            "city": "phosphor",
             "temperature": 15.2
         },
         {
-         "month": "Jun",
-         "city": "Paris",
+         "month": "150",
+         "city": "Potassium",
          "temperature": 18
         },
         {
-            "month": "Jul",
-            "city": "Tokyo",
+            "month": "180",
+            "city": "nitrogen",
             "temperature": 25.2
         },
         {
-            "month": "Jul",
-            "city": "London",
+            "month": "180",
+            "city": "phosphor",
             "temperature": 17
         },
         {
-         "month": "Jul",
-         "city": "Paris",
+         "month": "180",
+         "city": "Potassium",
          "temperature": 20
         },
         {
-            "month": "Aug",
-            "city": "Tokyo",
+            "month": "210",
+            "city": "nitrogen",
             "temperature": 26.5
         },
         {
-            "month": "Aug",
-            "city": "London",
+            "month": "210",
+            "city": "phosphor",
             "temperature": 16.6
         },
         {
-         "month": "Aug",
-         "city": "Paris",
+         "month": "210",
+         "city": "Potassium",
          "temperature": 20
         },
         {
-            "month": "Sep",
-            "city": "Tokyo",
+            "month": "240",
+            "city": "nitrogen",
             "temperature": 23.3
         },
         {
-            "month": "Sep",
-            "city": "London",
+            "month": "240",
+            "city": "phosphor",
             "temperature": 14.2
         },
         {
-         "month": "Sep",
-         "city": "Paris",
+         "month": "240",
+         "city": "Potassium",
          "temperature": 18
         },
         {
-            "month": "Oct",
-            "city": "Tokyo",
+            "month": "270",
+            "city": "nitrogen",
             "temperature": 18.3
         },
         {
-            "month": "Oct",
-            "city": "London",
+            "month": "270",
+            "city": "phosphor",
             "temperature": 10.3
         },
         {
-         "month": "Oct",
-         "city": "Paris",
+         "month": "270",
+         "city": "Potassium",
          "temperature": 13
         },
         {
-            "month": "Nov",
-            "city": "Tokyo",
+            "month": "300",
+            "city": "nitrogen",
             "temperature": 13.9
         },
         {
-            "month": "Nov",
-            "city": "London",
+            "month": "300",
+            "city": "phosphor",
             "temperature": 6.6
         },
         {
-         "month": "Nov",
-         "city": "Paris",
+         "month": "300",
+         "city": "Potassium",
          "temperature": 8
         },
         {
-            "month": "Dec",
-            "city": "Tokyo",
+            "month": "330",
+            "city": "nitrogen",
             "temperature": 9.6
         },
         {
-            "month": "Dec",
-            "city": "London",
+            "month": "330",
+            "city": "phosphor",
             "temperature": 4.8
         },
         {
-         "month": "Dec",
-         "city": "Paris",
+         "month": "330",
+         "city": "Potassium",
          "temperature": 7
      }
     ],
     "expRevenue": {
-        "revenue": 3000000
+        "revenue": 2700000
     }
  }

@@ -4,6 +4,7 @@ import 'antd/dist/antd.css';
 import './App.css';
 //import Buju from './components/Buju';
 import { Layout, Menu, Icon, Row, Col } from 'antd';
+
 import Card1 from './components/cards/Card1';
 import FrontCard from './components/cards/FrontCard';
 import Card2 from './components/cards/Card2';
@@ -13,6 +14,8 @@ import NewsCard from './components/cards/NewsCard';
 import ForumCard from './components/cards/ForumCard';
 import WeatherCard from './components/cards/WeatherCard';
 import WholeProCard from './components/cards/WholeProCard';
+import TodoCard from './components/cards/TodoCard';
+
 
 
 
@@ -85,6 +88,9 @@ class App extends React.Component {
                 </Row>
                 <Row >
                   <StatCard />
+                </Row>
+                <Row>
+                  <TodoCard />
                 </Row>
               </Col>  
               <Col span={8} >

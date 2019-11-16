@@ -33,7 +33,7 @@ class SoilElements extends React.Component {
          <Axis
            name="temperature"
            label={{
-             formatter: val => `${val}°C`
+             formatter: val => `${val}kg`
            }}
          />
          <Tooltip

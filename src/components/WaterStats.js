@@ -17,22 +17,26 @@ class WaterStats extends React.Component {
       const dv = ds.createView().source(data);
       dv.transform({
         type: "fold",
-        fields: ["Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug."],
+        fields: ['0-30', '30-60', '60-90', '90-120', '120-150', '150-180', '180-210', '210-240', '240-270', '270-300', '300-330', '330-360'],
         // 展开字段集
-        key: "月份",
+        key: "periods",
         // key字段
-        value: "月均降雨量" // value字段
+        value: "waterSupply" // value字段
       });
       return (
         <div>
           <Chart height={400} data={dv} forceFit>
             <Legend />
-            <Axis name="月份" />
-            <Axis name="月均降雨量" />
+            <Axis name="periods"/>
+            <Axis name="waterSupply" 
+            label={{
+              formatter: val => `${val}L`
+            }}
+            />
             <Tooltip />
             <Geom
               type="intervalStack"
-              position="月份*月均降雨量"
+              position="periods*waterSupply"
               color={"title"}
               style={{
                 stroke: "#fff",
